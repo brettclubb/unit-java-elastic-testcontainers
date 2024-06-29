@@ -1,0 +1,29 @@
+# Ignore Maven build files
+target/
+
+# Ignore generated Eclipse metadata
+.eclipse/
+
+# Ignore NetBeans metadata
+nbproject/
+
+# Ignore IntelliJ IDEA metadata
+.idea/
+
+# Ignore other IDE metadata
+*.iml
+
+# Ignore Maven dependencies
+*.jar
+*.pom
+mvn-dependency-jarfile
+
+# Ignore Maven snapshots
+**/maven-snapshot-repo/
+
+# Ignore compiled Java classes
+**/*.class
+
+# Ignore generated test reports
+**/test-classes/
+**/test-results/
